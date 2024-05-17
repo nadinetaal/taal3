@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+	background-color: #FFFCF6;
+}
+.navbar{
+	font-family: calibri; 
+	padding-right: 55px;
+	padding-left: 18px;
+}
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+img{
+	display: flex;
+	height: 110px;
+    width: 150px;
+	padding-left: 40px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+li a{
+	color: #5d5357;
+	font-size: 17px;
+	font-weight: bold;
+	margin-right: 25px;
+	text-decoration: none;
+}
+li a:hover{
+	color: rgb(217,189,186)
+}
+video {
+	align-items: center;
+    max-width: 620px;
+    border-radius: 1px;
+	padding: 15px;
+	margin-bottom: 80px;
+}
+.heading{
+	text-align: center;
+	font-size: 25px;
+	color: #5d5357;
+	padding: 9px;
+	margin: 3px;
+	background: rgb(217,189,186,0.5);
+}
+.content {
+    margin: 50;
+    padding: 50;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Ensure the content is stacked vertically */
+    align-items: center; /* Center the content horizontally */
+	text-align: center;
+	margin-bottom: 20px;
+}
+.content h5{
+	font-size: 17px;
+	font-family: sans-serif;
+	color: #5d5357;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.text {
+	font-family: calibri;
+	font-size: 20px;
+	color: #5d5357;
+	display: float;
+    margin: 5 auto; /* Adjust margin as needed */
+    text-align: center; /* Center the text */
+	margin-top:-45px;
+    margin-left:100px;
+	margin-right:100px;
+    margin-bottom: 10px;
+}
+.text p{
+	text-align: justify;
+	color: #5d5357;
+	padding: 90px;
+	margin: -100px;
+	background: rgb(217,189,186,0.5);
+	margin-top:45px;
+	margin-bottom: 70px;
+}
+.btn {
+    font-family: calibri;
+    font-size: 20px;
+    color: black;
+    transform: translateY(-10px);
+    background-color: rgb(217, 189, 186, 0.5);
+    margin-bottom: 20px; /* Add space below the button */
+}
+hr{
+	margin-top: 100px;
+	width:100%;
+	border-width: 2px; 
+    border-color: #5d5357;
+	margin-bottom: 5px;
+}
+footer { 
+    width: 100%;
+    background-color: #9d8686; 
+	color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+	font-family: Calibri;
+    font-size: 12px;  
+	margin-top: 25px;
+	margin-left: 40px;
+}
+footer img {
+    display: inline-block; 
+    vertical-align: middle; 
+	margin-bottom: 5px;
+    height: 30px; 
+    width: 30px; 
+}
+
